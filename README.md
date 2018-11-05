@@ -19,5 +19,5 @@
 考虑广大同学习惯使用 spring-boot-starter-data-redis，故基于此进行封装。
 
 注意：
- 1. 由于 jesi 已经很久没有更新（2016.07起），SpringBoot2.x 版本已经放弃使用 jedis 作为底层 redis 客户端实现
+ 1. 由于 jedis 已经很久没有更新（2016.07起），SpringBoot2.x 版本已经放弃使用 jedis 作为底层 redis 客户端实现
  2. 在 SpringBoot2.x 中，spring-boot-starter-data-redis 默认实现已经改为 lettuce，如果使用该版本 SpringBoot，需要做对应修改 
